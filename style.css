@@ -1,0 +1,202 @@
+body{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.my_menu{
+    position: absolute;
+    background-color: #2196f3;
+    width: 100%;
+    height: auto;
+    
+}
+
+.menu li{
+    list-style: none;
+    width: 160px;
+    height: 60px;
+    background-color: darkcyan;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 60px;
+    float: left
+    
+}
+.menu li a:hover{
+    color: aqua;
+}
+.menu li:hover{
+    background-color: black;
+}
+.menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.logo{
+    width: 82px;
+}
+.logo li:hover{
+    background-color: #2196f3! important;
+}
+.logo_li a{
+    font-size: 20px;
+    background-color: orangered;
+}
+.logo_li a:hover{
+    color: white! important;
+    background-color: #2196f3! important;
+}
+.menu ul li{
+    margin: 0px;
+}
+.menu ul{
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+    
+}
+/*banner */
+#banner{
+    width: 100%;
+}
+#banner img{
+    margin-top: 50px;
+    width: 100%;
+}
+/*why choose us*/
+#why_choose{
+    width: 100%;
+    text-align: center
+    
+}
+
+#why_choose h1{
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+    margin: 0 auto;
+/*    border-bottom-width: 20px; to make line thick */
+}
+.div_section1{
+    width: 20%;
+    height: 350px;
+    margin: 32px;
+/*    border: 1px solid gray;*/
+    float: left;
+}
+.icon{
+    width: 120px;
+    height: 120px;
+    border: 1px solid gray;
+    margin: 10px auto;
+    line-height: 120px;
+    font-size: 50px;
+    background-color: darkred;
+    color: white;
+    border-radius: 100px
+    transition-duration: 0.3s;
+}
+.icon:hover{
+    font-size: 40px;
+}
+
+/*section2*/
+.section2{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+.section2 h1{
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+    margin: 0 auto;
+    
+}
+.div_section2{
+    width: 30%;
+    height: 615px;
+    margin: 20px;
+/*    border: 1px solid gray;*/
+    float: left;
+    
+}
+.div_section2 img{
+    width: 100%
+    
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    background-color: black;
+    height: auto;
+    position: absolute;
+        
+}
+.footer_div{
+     width: 20%;
+    height: 250px;
+    margin: 32px;
+/*    border: 1px solid gray;*/
+    float: left;
+    margin-top: auto;
+    
+}
+.footer_div h1{
+/*    text-align: center;*/
+    color: red;
+}
+.footer_div p{
+    color: white;
+}
+.footer_div button{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    color: white
+}
+.footer_div ul li{
+    list-style: none;
+    
+}
+.footer_div ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.Social_Link{
+    color: white;
+    
+}
+
+.under_footer{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+}
+
+.footer1{
+    float: left;
+    width: 50%;
+}
+.footer1 p{
+    color: black;
+}
